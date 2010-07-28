@@ -15,7 +15,7 @@
     [self runTestCase:(TestBlock)^{
         return [[self allValues] count] == 0;
     } withDescription:(ExpressionBlock)^{
-        return [NSString stringWithFormat:@"", self];
+		return [NSString stringWithFormat:@"%@ should be empty", self];
     }];
 }
 
@@ -24,7 +24,7 @@
     [self runTestCase:(TestBlock)^{
         return [[self allValues] count] > 0;
     } withDescription:(ExpressionBlock)^{
-        return [NSString stringWithFormat:@"", self];
+		return [NSString stringWithFormat:@"%@ should NOT be empty", self];
     }];    
 }
 
