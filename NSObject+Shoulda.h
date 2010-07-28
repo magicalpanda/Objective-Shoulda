@@ -27,7 +27,7 @@
 - (void) shouldRespondToSelector:(SEL)expectedSelector withDescription:(NSString *)reason;
 - (void) shouldNotRespondToSelector:(SEL)selector withDescription:(NSString *)reason;
 
-+ (void) shouldImplementProtocol:(Protocol *)expectedProtocol;
++ (void) shouldImplementProtocol:(Protocol *)expectedProtocol withDescription:(NSString *)reason;
 
 @end
 

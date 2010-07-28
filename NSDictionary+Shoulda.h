@@ -12,5 +12,6 @@
 @interface NSDictionary (Shoulda)
 
 - (void) shouldBeEmpty;
+- (void) shouldNotBeEmpty;
 
 @end

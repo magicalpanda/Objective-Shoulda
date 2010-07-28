@@ -9,6 +9,14 @@
 //#import <Cocoa/Cocoa.h>
 //#endif
 #import "GHUnit.h"
+#import "NSSet+Shoulda.h"
+#import "NSArray+Shoulda.h"
+#import "NSDate+Shoulda.h"
+#import "NSDictionary+Shoulda.h"
+#import "NSManagedObject+Shoulda.h"
+#import "NSNumber+Shoulda.h"
+#import "NSObject+Shoulda.h"
+#import "NSString+Shoulda.h"
 
 typedef BOOL (^TestBlock)();
 typedef NSString* (^ExpressionBlock)();
